@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} About {% endblock %}
+
+{% block content %}
+
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								About Us				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
+						</div>											
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+			<!-- Start home-about Area -->
+			<section class="home-about-area" id="about">
+				<div class="container-fluid">				
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-6 no-padding home-about-left">
+							<img class="img-fluid" src="{% static 'img/about-img.jpg' %}" alt="">
+						</div>
+						<div class="col-lg-6 no-padding home-about-right">
+							<h1>Our school background</h1>
+		
+							<h5>
+								Light Academy schools (LAS) is a well-established, privately owened co-educational schools. The school is suitated in the beautiful lowland at Lweza-Kigo Road 4km off Entebbe Road, easily accessible and perfectly conducive environment for learning, free of Noise and other extraneous distractions associated with urban and peri-urban settings of the City.
+								The school is registered with the Ministry of Education and Sports to implement the Uganda National Curriculum and prepare students,the Ordinary Level Uganda Certificate of Education(UCE) and the Uganda Advanced Certificate of Education (UACE).
+							</h5>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End home-about Area -->	
+
+			<!-- Start feature Area -->
+			<section class="feature-area section-gap" id="service">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-8 pb-40 header-text">
+							<h1>What Services we offer to our clients</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="single-feature">
+								<h4><span class="lnr lnr-diamond"></span>School Motto</h4>
+								<p>
+									A Different Approach to Education.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-feature">
+								<h4><span class="lnr lnr-rocket"></span>Our Vision</h4>
+								<p>
+									"To be the best Educational Institution for producing creative, self-reliant, respectful and morally upright individuals who will build up a better world".
+								</p>								
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-feature">
+								<h4><span class="lnr lnr-license"></span>Our Mission</h4>
+								<p>
+									We are commited to delivering morally upright, socially responsible and academically competent individuals to the society.
+								</p>								
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End feature Area -->				
+{% endblock %}
